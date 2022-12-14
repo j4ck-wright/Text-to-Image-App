@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #212d40;
+  color: #eee;
+  font-weight: 300;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+#result {
+  display: flex;
+  align-items: center;
+  width: 512px;
+  aspect-ratio: 1;
+  border: solid;
+  border-width: 1px;
+  margin: 0 auto 1rem auto;
+  border-color: rgba(238, 238, 238, 0.5);
+}
+
+.info {
+  width: 100%;
+}
+
+.subtitle {
+  margin: 0 0 1rem 0;
+}
+
+.pretty-prompt{
+  margin: 0 auto 1rem auto;
+  position: relative;
+  width: fit-content;
+  opacity: 0;
+  text-transform: capitalize;
+  transition: opacity 1.5s;
+}
+
+.pretty-prompt::before{
+  position: absolute;
+  top: -15px;
+  left: -18px;
+  font-size: 3rem;
+  font-family: "Aladin", sans-serif;
+  content: '"';
+  display: inherit;
+  transition: inherit;
+}
+
+form {
+  width: fit-content;
+  background-color: #192231;
+  padding: 0.8rem;
+  margin: auto;
+  border: solid;
+  border-color: rgba(238, 238, 238, 0.5);
+  border-width: 1px;
+}
+
+form button {
+  background: none;
+  border: solid;
+  border-width: 1px;
+  color: inherit;
+  cursor: pointer;
+  border-color: rgba(238, 238, 238, 0.5);
+}
+
+form label {
+  margin-right: 0.5rem;
+}
+
+form input {
+  background: none;
+  color: inherit;
+  border: solid;
+  border-color: rgba(238, 238, 238, 0.5);
+  border-width: 1px;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+.spinner {
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
