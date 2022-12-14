@@ -5,11 +5,15 @@ A simple HTML, CSS and JS web app which uses [OpenAI's API](https://openai.com/)
 Requires an OpenAI account to generate an API key
 
 ## Front-end setup
-`npm install`
-`npm run dev`
+```
+npm install
+npm run dev
+```
 
 ## Back-end setup
-`node server.js`
+```
+node server.js
+```
 
 
 ## Example
