@@ -13,5 +13,5 @@ Requires an OpenAI account to generate an API key
 
 
 ## Example
-![A screenshot of the web app](../ExampleImg.jpg)
+![A screenshot of the web app](https://raw.githubusercontent.com/j4ck-wright/Text-to-Image-App/master/ExampleImg.jpg)
 
